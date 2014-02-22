@@ -1,0 +1,9 @@
+#navigator-throbber,
+#wrapper-navigator-throbber > #navigator-throbber {
+  list-style-image: url("single16.gif") !important;
+}
+
+#navigator-throbber[busy="true"] {
+  list-style-image: url("anim16.gif") !important;
+  opacity: 1 !important;
+}

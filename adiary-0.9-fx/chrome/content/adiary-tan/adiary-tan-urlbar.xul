@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+
+<!DOCTYPE overlay SYSTEM "chrome://adiary-tan/locale/adiary-tan-status.dtd">
+
+<overlay xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul"
+         id="adiaryTanUrlbarOverlay">
+
+  <script type="application/x-javascript"
+          src="chrome://adiary-tan/content/adiary-tan-status.js" />
+
+  <hbox id="urlbar-icons">
+    <label id="adiaryTanStatus" hidden="true"
+           value="&adiaryTanStatus.label.value;" />
+  </hbox>
+
+</overlay>

@@ -1,0 +1,41 @@
+<?xml version="1.0"?>
+
+<!DOCTYPE overlay SYSTEM "chrome://adiary-tan/locale/adiary-tan-about.dtd">
+
+<overlay xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul"
+         id="adiaryTanAboutOverlay">
+
+  <script type="application/x-javascript"
+          src="chrome://adiary-tan/content/adiary-tan-about2.js" />
+
+  <hbox id="clientBox">
+    <vbox id="leftBox" flex="1">
+      <hbox>
+        <image id="adiaryTanPreloadImage1" />
+        <image id="adiaryTanPreloadImage2" />
+        <image id="adiaryTanPreloadImage3" />
+        <image id="adiaryTanPreloadImage4" />
+        <vbox id="adiaryTanHotspot" onclick="adiaryTanAbout.react();" />
+        <vbox>
+          <vbox id="adiaryTanWebsite" class="img-link"
+                tooltiptext="&adiaryTanAbout.adiaryTanWebsite.URL;"
+                onclick="adiaryTanAbout.openWebsite('&adiaryTanAbout.adiaryTanWebsite.URL;');" />
+          <vbox id="adiaryTanBalloon" hidden="true">
+            <hbox>
+              <vbox id="adiaryTanBalloonMargin" />
+              <vbox id="adiaryTanBalloonCentering" pack="center"
+                    align="center">
+                <vbox>
+                  <label id="adiaryTanLabel1" />
+                  <label id="adiaryTanLabel2" />
+                  <label id="adiaryTanLabel3" />
+                </vbox>
+              </vbox>
+            </hbox>
+          </vbox>
+        </vbox>
+      </hbox>
+    </vbox>
+  </hbox>
+
+</overlay>
