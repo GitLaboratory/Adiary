@@ -1,20 +1,20 @@
-content	adiary-tan	chrome/content/adiary-tan/
+content    adiary-tan                                      chrome/content/adiary-tan/
 
-overlay	chrome://browser/content/aboutDialog.xul	chrome://adiary-tan/content/adiary-tan-about.xul	appversion<=3.6.*
-overlay	chrome://browser/content/browser.xul	chrome://adiary-tan/content/adiary-tan-statusbar.xul	appversion<=3.6.*
-overlay	chrome://browser/content/aboutDialog.xul	chrome://adiary-tan/content/adiary-tan-about2.xul	appversion>=4.0b
-overlay	chrome://browser/content/browser.xul	chrome://adiary-tan/content/adiary-tan-urlbar.xul	appversion>=4.0b
+overlay    chrome://browser/content/aboutDialog.xul        chrome://adiary-tan/content/adiary-tan-about.xul        appversion<=3.6.*
+overlay    chrome://browser/content/browser.xul            chrome://adiary-tan/content/adiary-tan-statusbar.xul    appversion<=3.6.*
+overlay    chrome://browser/content/aboutDialog.xul        chrome://adiary-tan/content/adiary-tan-about2.xul       appversion>=4.0b
+overlay    chrome://browser/content/browser.xul            chrome://adiary-tan/content/adiary-tan-urlbar.xul       appversion>=4.0b
 
-skin	adiary-tan	classic/1.0	chrome/skin/adiary-tan/
+skin       adiary-tan                                      classic/1.0                                             chrome/skin/adiary-tan/
 
-style	chrome://browser/content/aboutDialog.xul	chrome://adiary-tan/skin/about.css	appversion<=3.6.*
-style	chrome://browser/content/browser.xul	chrome://adiary-tan/skin/throbber.css	appversion<=3.6.*
-style	chrome://global/content/customizeToolbar.xul	chrome://adiary-tan/skin/throbber.css	appversion<=3.6.*
+style      chrome://browser/content/aboutDialog.xul        chrome://adiary-tan/skin/about.css                      appversion<=3.6.*
+style      chrome://browser/content/browser.xul            chrome://adiary-tan/skin/throbber.css                   appversion<=3.6.*
+style      chrome://global/content/customizeToolbar.xul    chrome://adiary-tan/skin/throbber.css                   appversion<=3.6.*
+style      chrome://browser/content/aboutDialog.xul        chrome://adiary-tan/skin/about2.css                     appversion>=4.0b
+style      chrome://browser/content/browser.xul            chrome://adiary-tan/skin/throbber2.css                  appversion>=4.0b
+style      chrome://browser/content/browser.xul            chrome://adiary-tan/skin/urlbar.css                     appversion>=4.0b
+style      chrome://global/content/customizeToolbar.xul    chrome://adiary-tan/skin/throbber2.css                  appversion>=4.0b
 
-style	chrome://browser/content/aboutDialog.xul	chrome://adiary-tan/skin/about2.css	appversion>=4.0b
-style	chrome://browser/content/browser.xul	chrome://adiary-tan/skin/throbber2.css	appversion>=4.0b
-style	chrome://browser/content/browser.xul	chrome://adiary-tan/skin/urlbar.css	appversion>=4.0b
-style	chrome://global/content/customizeToolbar.xul	chrome://adiary-tan/skin/throbber2.css	appversion>=4.0b
-
-locale	adiary-tan	en-US	chrome/locale/en-US/adiary-tan/
-locale	adiary-tan	ja	chrome/locale/ja/adiary-tan/
+locale     adiary-tan                                      ru-RU                                                   chrome/locale/ru-RU/adiary-tan/
+locale     adiary-tan                                      en-US                                                   chrome/locale/en-US/adiary-tan/
+locale     adiary-tan                                      ja-JP                                                   chrome/locale/ja-JP/adiary-tan/
