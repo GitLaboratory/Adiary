@@ -3,8 +3,11 @@
 }
 
 #aboutDialog #clientBox {
-  background-image: url("about_2.png");
-  background-repeat: no-repeat;
+    background: url('about_2.png') repeat fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
 
 #aboutDialog #leftBox {
