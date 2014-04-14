@@ -1,98 +1,102 @@
+#adiaryTanLabel1 {
+  color: black;
+}
+
 #aboutDialog #modes {
-  min-height: 460px !important;
+    min-height: 460px !important;
 }
 
 #aboutDialog #clientBox {
-  background-image: url("about.png") !important;
-  padding-top: 0px !important;
+    background-image: url("about.png") !important;
+    padding-top: 0px !important;
 }
 
 #aboutDialog #creditsIframe {
-  max-height: 400px !important;
+    max-height: 400px !important;
 }
 
 #aboutDialog #creditsBox {
-  background-color: white;
+    background-color: white;
 }
 
 #aboutDialog #version {
-  margin: -53px 0px 0px 170px !important;
+    margin: -53px 0px 0px 170px !important;
 }
 
 #aboutDialog #copyright {
-  margin-top: 10px !important;
+    margin-top: 10px !important;
 }
 
 #aboutDialog #adiaryTanPreloadImage1 {
-  background-image: url("about2.png");
+    background-image: url("about2.png");
 }
 
 #aboutDialog #adiaryTanPreloadImage2 {
-  background-image: url("balloon.png");
+    background-image: url("balloon.png");
 }
 
 #aboutDialog #adiaryTanPreloadImage3 {
-  background-image: url("about3.png");
+    background-image: url("about3.png");
 }
 
 #aboutDialog #adiaryTanPreloadImage4 {
-  background-image: url("about4.png");
+    background-image: url("about4.png");
 }
 
 #aboutDialog #adiaryTanHotspot {
-  width: 128px;
-  height: 262px;
+    width: 128px;
+    height: 262px;
 }
 
 #aboutDialog #adiaryTanBalloon {
-  background-image: url("balloon.png");
-  background-repeat: no-repeat;
-  width: 170px;
-  height: 151px;
-  margin: 7px 0px 0px 0px;
+    background-image: url("balloon.png");
+    background-repeat: no-repeat;
+    width: 170px;
+    height: 151px;
+    margin: 7px 0px 0px 0px;
 }
 
 #aboutDialog #adiaryTanBalloonMargin {
-  width: 22px;
+    width: 22px;
 }
 
 #aboutDialog #adiaryTanBalloonCentering {
-  width: 144px;
-  height: 146px;
+    width: 144px;
+    height: 146px;
 }
 
 #aboutDialog #adiaryTanSpacer {
-  width: 128px;
+    width: 128px;
 }
 
 #aboutDialog #adiaryTanWebsite {
-  background-image: url("banner.png");
-  width: 104px;
-  height: 24px;
-  margin: 7px 0px 6px 44px;
+    background-image: url("banner.png");
+    width: 104px;
+    height: 24px;
+    margin: 7px 0px 6px 44px;
 }
 
 /* Class for image with a 'link' appearance                                */
 /* Refer from resource://gre/res/html.css, chrome://global/skin/global.css */
 
 .img-link {
-  border: 2px solid;
-  color: blue;
+    border: 2px solid;
+    color: blue;
 }
 
 .img-link:focus {
-  color: red;
-  outline: red dotted 1px;
+    color: red;
+    outline: red dotted 1px;
 }
 
 .img-link:hover {
-  cursor: pointer;
+    cursor: pointer;
 }
 
 .img-link:hover:active {
-  color: red;
+    color: red;
 }
 
 .img-link[visited="true"] {
-  color: purple;
+    color: purple;
 }
