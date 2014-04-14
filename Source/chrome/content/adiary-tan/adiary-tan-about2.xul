@@ -2,6 +2,7 @@
 <!DOCTYPE overlay SYSTEM "chrome://adiary-tan/locale/adiary-tan-about.dtd">
 <overlay xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul" id="adiaryTanAboutOverlay">
 <script type="application/x-javascript" src="chrome://adiary-tan/content/adiary-tan-about2.js" />
+<style type="text/css" src="chrome://adiary-tan/content/adiary-tan-style.css />
     <hbox id="clientBox">
         <vbox id="leftBox" flex="1">
         <hbox>
